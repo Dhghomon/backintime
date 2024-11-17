@@ -25,19 +25,19 @@ msgstr "Avise"
 
 #: common/config.py:141 common/config.py:251
 msgid "Main profile"
-msgstr ""
+msgstr "Chef profil"
 
 #: common/config.py:258
 msgid "Local (EncFS encrypted)"
-msgstr ""
+msgstr "Local (ciffrat con EncFS)"
 
 #: common/config.py:259
 msgid "SSH (EncFS encrypted)"
-msgstr ""
+msgstr "SSH (ciffrat con ENcFS)"
 
 #: common/config.py:270
 msgid "Local"
-msgstr ""
+msgstr "Local"
 
 #: common/config.py:272
 msgid "SSH"
@@ -46,7 +46,7 @@ msgstr "SSH"
 #: common/config.py:272 common/config.py:282
 #: qt/manageprofiles/tab_general.py:632
 msgid "SSH private key"
-msgstr ""
+msgstr "Privat clave SSH"
 
 #: common/config.py:275
 msgid "Local encrypted"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: common/config.py:1483
 msgid "Failed to write new crontab."
-msgstr ""
+msgstr "Ne posset inscrir nov crontab"
 
 #: common/config.py:1491
 msgid ""
@@ -113,11 +113,11 @@ msgstr ""
 #: common/config.py:1597
 #, python-brace-format
 msgid "Couldn't find UUID for {path}"
-msgstr ""
+msgstr "Ne posset trovar UUID por {path}"
 
 #: common/configfile.py:107
 msgid "Failed to save config"
-msgstr ""
+msgstr "Ne posset salvar config"
 
 #: common/configfile.py:143
 msgid "Failed to load config"
@@ -126,16 +126,16 @@ msgstr ""
 #: common/configfile.py:690 common/configfile.py:789
 #, python-brace-format
 msgid "Profile \"{name}\" already exists."
-msgstr ""
+msgstr "Profil \"{name}\" ja existe."
 
 #: common/configfile.py:735
 msgid "The last profile cannot be removed."
-msgstr ""
+msgstr "Li ultim profil ne posse esser removet."
 
 #: common/encfstools.py:81
 #, python-brace-format
 msgid "Unable to mount '{command}'"
-msgstr ""
+msgstr "Ne posse montar '{command}'"
 
 #: common/encfstools.py:131
 msgid "Configuration for the encrypted directory not found."
@@ -151,7 +151,7 @@ msgstr "Anullar"
 
 #: common/encfstools.py:148
 msgid "Please confirm the password."
-msgstr ""
+msgstr "Ples confirmar li passaparol."
 
 #: common/encfstools.py:152
 msgid "Password doesn't match."
@@ -164,17 +164,17 @@ msgstr ""
 #: common/mount.py:621
 #, python-brace-format
 msgid "Unable to unmount {mountprocess} from {mountpoint}."
-msgstr ""
+msgstr "Ne posset desmontar {mountprocess} de {mountpoint}."
 
 #: common/mount.py:708
 #, python-brace-format
 msgid "{command} not found. Please install it (e.g. via \"{installcommand}\")"
-msgstr ""
+msgstr "{command} ne trovat. Ples installar it (e.g. per \"{installcommand}\")"
 
 #: common/mount.py:732
 #, python-brace-format
 msgid "Mountpoint {mntpoint} not empty."
-msgstr ""
+msgstr "Montapunctu {montpoint} ne vacui."
 
 #: common/password.py:287
 #, python-brace-format
@@ -208,8 +208,8 @@ msgstr ""
 #, python-format
 msgid "Waiting %s second."
 msgid_plural "Waiting %s seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Atendent %s second."
+msgstr[1] "Atendent %s secondes."
 
 #: common/snapshots.py:901
 #, python-brace-format
@@ -218,12 +218,12 @@ msgstr ""
 
 #: common/snapshots.py:932
 msgid "Please be patient. Finalizing…"
-msgstr ""
+msgstr "Ples esser patient. Finalisant…"
 
 #: common/snapshots.py:1063
 #, fuzzy
 msgid "Can't create directory."
-msgstr "Ne successat creat un fólder"
+msgstr "Ne successat crear un fólder"
 
 #: common/snapshots.py:1080
 msgid "Saving config file…"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: common/snapshots.py:1161
 msgid "Saving permissions…"
-msgstr ""
+msgstr "Salvant permissiones…"
 
 #: common/snapshots.py:1273
 #, python-brace-format
@@ -246,7 +246,7 @@ msgstr ""
 #: common/snapshots.py:1307
 #, fuzzy
 msgid "Can't remove directory"
-msgstr "Ne successat creat un fólder"
+msgstr "Ne successat crear un fólder"
 
 #: common/snapshots.py:1361
 msgid "Taking snapshot"
@@ -258,7 +258,7 @@ msgstr "Successe"
 
 #: common/snapshots.py:1415
 msgid "Partial transfer due to error"
-msgstr ""
+msgstr "Partial transfer pro error"
 
 #: common/snapshots.py:1416
 msgid "Partial transfer due to vanished source files (see 'man rsync')"
@@ -267,11 +267,11 @@ msgstr ""
 #: common/snapshots.py:1420
 #, python-brace-format
 msgid "'rsync' ended with exit code {exit_code}"
-msgstr ""
+msgstr "'rsync' finit con code de exeada {exit_code}"
 
 #: common/snapshots.py:1433
 msgid "See 'man rsync' for more details"
-msgstr ""
+msgstr "Vide 'man rsync' por plu detallies"
 
 #: common/snapshots.py:1440
 msgid ""
@@ -285,7 +285,7 @@ msgstr ""
 #: common/snapshots.py:1505
 #, python-brace-format
 msgid "Unable to rename {new_path} to {path}."
-msgstr ""
+msgstr "Ne posset renominar {new_path} a {path}."
 
 #: common/snapshots.py:1823 common/snapshots.py:1875
 msgid "Smart removal"
@@ -311,11 +311,11 @@ msgstr "Nu"
 #: common/sshtools.py:240
 #, python-brace-format
 msgid "Unable to mount {sshfs}"
-msgstr ""
+msgstr "Ne posset montar {sshfs}"
 
 #: common/sshtools.py:308
 msgid "ssh-agent not found. Please ensure it is installed."
-msgstr ""
+msgstr "ssh-agent ne trovat. Ples far cert que it es installat."
 
 #: common/sshtools.py:478
 msgid ""
@@ -437,7 +437,7 @@ msgstr "Autores"
 
 #: qt/aboutdlg.py:62 qt/aboutdlg.py:105
 msgid "Translations"
-msgstr "Traductores"
+msgstr "Traductiones"
 
 #: qt/aboutdlg.py:63 qt/aboutdlg.py:111
 msgid "License"
@@ -455,11 +455,11 @@ msgstr ""
 
 #: qt/app.py:255
 msgid "Add to Include"
-msgstr ""
+msgstr "Adjunter a Inclusiones"
 
 #: qt/app.py:257
 msgid "Add to Exclude"
-msgstr ""
+msgstr "Adjunter a Exclusiones"
 
 #: qt/app.py:342
 #, python-brace-format
